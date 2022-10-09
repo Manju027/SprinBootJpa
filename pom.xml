@@ -59,6 +59,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
+		<finalName>demo</finalName>
 	</build>
 
 </project>
