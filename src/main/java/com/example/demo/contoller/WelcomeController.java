@@ -27,7 +27,7 @@ public class WelcomeController {
 	@RequestMapping("/movies")
 	public List<MovieCatalog> movie(){
 		
-		MovieCatalog m = new MovieCatalog(1,"abc");
+		MovieCatalog m = new MovieCatalog(1,"Kantara");
 		repo.save(m);
 		List<MovieCatalog> movie = new ArrayList<>();
 		
